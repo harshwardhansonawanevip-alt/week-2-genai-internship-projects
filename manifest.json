@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Style Spy",
+  "version": "1.0.0",
+  "description": "Inspect colours and fonts on the current page.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
